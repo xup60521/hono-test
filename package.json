@@ -1,5 +1,5 @@
 {
-  "name": "hono",
+  "name": "hono-test",
   "module": "index.ts",
   "type": "module",
   "private": true,
