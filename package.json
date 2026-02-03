@@ -1,18 +1,39 @@
 {
-  "name": "hono-test",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "bun --bun --watch ./api/index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "hono": "^4.11.7"
-  }
+    "name": "hono-test",
+    "module": "index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "bun --bun --watch ./api/index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "hono": "^4.11.7",
+        "@ai-sdk/cerebras": "^2.0.27",
+        "@ai-sdk/google": "^3.0.18",
+        "@ai-sdk/groq": "^3.0.19",
+        "@ai-sdk/mistral": "^3.0.16",
+        "@hono/zod-validator": "^0.7.6",
+        "@neondatabase/serverless": "^1.0.2",
+        "@openrouter/ai-sdk-provider": "^2.1.1",
+        "@upstash/redis": "^1.36.1",
+        "@upstash/workflow": "^1.1.0",
+        "ai": "^6.0.64",
+        "better-auth": "^1.4.12",
+        "cheerio": "^1.2.0",
+        "drizzle-kit": "^0.31.8",
+        "drizzle-orm": "^0.45.0",
+        "googleapis": "^171.0.0",
+        "pg": "^8.16.3",
+        "string-similarity-js": "^2.1.4",
+        "urlpattern-polyfill": "^10.1.0",
+        "zod": "^4.3.6",
+        "clsx": "^2.1.1",
+        "tailwind-merge": "^3.3.1"
+    }
 }
