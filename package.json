@@ -13,7 +13,6 @@
         "typescript": "^5"
     },
     "dependencies": {
-        "hono": "^4.11.7",
         "@ai-sdk/cerebras": "^2.0.27",
         "@ai-sdk/google": "^3.0.18",
         "@ai-sdk/groq": "^3.0.19",
@@ -26,14 +25,16 @@
         "ai": "^6.0.64",
         "better-auth": "^1.4.12",
         "cheerio": "^1.2.0",
+        "clsx": "^2.1.1",
+        "dotenv": "^17.2.3",
         "drizzle-kit": "^0.31.8",
         "drizzle-orm": "^0.45.0",
         "googleapis": "^171.0.0",
+        "hono": "^4.11.7",
         "pg": "^8.16.3",
         "string-similarity-js": "^2.1.4",
+        "tailwind-merge": "^3.3.1",
         "urlpattern-polyfill": "^10.1.0",
-        "zod": "^4.3.6",
-        "clsx": "^2.1.1",
-        "tailwind-merge": "^3.3.1"
+        "zod": "^4.3.6"
     }
 }

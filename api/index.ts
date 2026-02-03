@@ -6,6 +6,9 @@ import modelsRoute from "./routes/models";
 import toolsRoute from "./routes/tools";
 import translationRoute from "./routes/translation";
 import workflowRoute from "./routes/workflow";
+import dotenv from "dotenv"
+
+dotenv.config()
 
 const app = new Hono<{ Bindings: AuthType }>({ strict: false }).basePath(
     "/api",
